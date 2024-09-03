@@ -1,5 +1,6 @@
 add_library(
   smartcrypt SHARED
+  ./lib/Engine/Engine.cxx
   ./lib/SmartCrypt.cxx
 )
 target_include_directories(
