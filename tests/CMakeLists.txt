@@ -1,0 +1,9 @@
+add_executable(
+  EngineTests
+  ./lib/EngineTests.cxx
+)
+target_link_libraries(
+  EngineTests
+  GTest::gtest_main
+  smartcrypt
+)

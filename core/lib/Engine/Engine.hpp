@@ -1,6 +1,7 @@
 #pragma once
 #include <filesystem>
 #include <iostream>
+#include "Header.hpp"
 
 /// @brief EFile Stub
 struct __EFile{
