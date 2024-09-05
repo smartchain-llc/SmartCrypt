@@ -7,9 +7,10 @@ namespace SmartCrypt {
 namespace Engine {
 
 struct Algorithm {
-
 };
+
 struct Header {};
+
 struct Config {
   Config() = default;
   Config& SetAlgorithm(Algorithm&);

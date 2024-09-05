@@ -6,5 +6,5 @@ namespace SmartCrypt {
   const char* Version();
   void TestOpImpl();
 
-  std::unique_ptr<IEncryptionEngine> InitEngine(EngineConfig&);
+  // std::unique_ptr<IEncryptionEngine> InitEngine(EngineConfig&);
 }

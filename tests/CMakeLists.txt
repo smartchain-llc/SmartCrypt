@@ -7,3 +7,4 @@ target_link_libraries(
   GTest::gtest_main
   smartcrypt
 )
+gtest_discover_tests(EngineTests)
