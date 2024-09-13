@@ -1,6 +1,7 @@
 #pragma once
 #include <filesystem>
 #include <iostream>
+#include <memory>
 #include "Header.hpp"
 
 namespace SmartCrypt {

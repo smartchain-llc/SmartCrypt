@@ -8,3 +8,14 @@ target_link_libraries(
   smartcrypt
 )
 gtest_discover_tests(EngineTests)
+
+add_executable(
+  HeaderTests
+  ./lib/HeaderTests.cxx
+)
+target_link_libraries(
+  HeaderTests
+  GTest::gtest_main
+  smartcrypt
+)
+gtest_discover_tests(HeaderTests)
